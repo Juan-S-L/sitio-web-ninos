@@ -1,0 +1,148 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: rgb(255,191,105);
+    padding: 1.5rem 7rem;
+}
+.logo {
+    display: flex;
+    align-items: center;
+}
+.logo img {
+    width: 20%;
+}
+.logo a {
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.navigator-navbar-container {
+    display: flex;
+    gap: 2rem;
+}
+.navigator-navbar-container a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: black;
+}
+
+.hero-container {
+    display: flex;
+    align-content: center;
+
+    position: relative;
+    background-image: url("../assets/images/background.png");
+    background-color: rgb(255,191,105);
+    background-repeat:no-repeat;
+    background-size: 80% 100vh;
+    background-position: center;
+}
+.hero-contex-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    margin: 7rem 5rem;
+    width: 40%;
+    color: white;
+    height: 100%;
+}
+.hero-contex-container h1 {
+    text-transform: uppercase;
+    font-size: 150px
+}
+.hero-contex-container p {
+    font-weight: 600;
+    font-size: 1.4rem;
+    padding-bottom: 3rem;
+}
+.hero-contex-container button {
+    width: fit-content;
+    padding: 1rem 5rem;
+    background-color: rgb(215, 224, 231);
+    border: 0;
+    border-radius: 7px;
+}
+
+.who-we-are-contanier {
+    display: flex;
+    flex-direction: column;
+    gap: 1.3rem;
+    text-align: center;
+    margin: 5rem 15rem;
+}
+
+.popit-prodcuts-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+
+    background-color: rgb(215, 224, 231);
+    padding: 6rem 15rem;
+}
+.products-collage {
+    display: grid;
+    grid-template-areas: "box-1 box-2 box-3";
+    gap: 5rem;
+}
+.product-contex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: .7rem;
+}
+.product-contex img {
+    width: 50%;
+}
+.product-contex button {
+    background-color: rgb(255,191,105);
+    border: 0;
+    padding: .7rem 2rem;
+}
+
+.idk-contaienr {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* margin: 5rem; */
+    padding: 5rem 7rem;
+    gap: 2rem;
+
+    position: relative;
+    background-image: url(../assets/images/bg-grid.png);
+    background-repeat: no-repeat;
+    background-size: 80% 100vh;
+    background-position: center;
+}
+.idk-contex-container {
+    display: flex;
+    flex-direction: column;
+
+    width: 60%;
+    gap: 1rem;
+}
+.idk-contaienr img {
+    width: 40%;
+}
+
+.end {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(75, 69, 69);
+    color: white;
+    padding: 2rem 0;
+}
